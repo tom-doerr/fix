@@ -67,8 +67,9 @@ def main(argv):
             f'\n' \
             f'{SEPERATOR_STR}' \
             f'Fix:\n' \
-            f'\n' \
             f''
+
+            # f'Step by step instructions on how to fix the issue:\n' \
 
     suggestions = get_suggestions(input_prompt)
     suggestion_num = 0
@@ -77,7 +78,9 @@ def main(argv):
             continue
 
         suggestion_num += 1
-        print('=================================', end='')
+        block_char = '─'
+        print(f'{block_char * 40}', end='')
+
         print(f'  {suggestion_num}. Suggestion:')
         # Same text as above, but colored green
         print(f'\033[92m{suggestion}\033[0m')
