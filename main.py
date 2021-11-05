@@ -19,6 +19,8 @@ import openai
 
 
 MAX_NUM_TOKENS = 100
+FREQUENCY_PENALTY = 2
+NUMBER_OF_SUGGESTIONS = 9
 SEPERATOR_STR = '==========================================================\n'
 STOP_STR = '==============='
 
@@ -38,7 +40,7 @@ def get_output(program):
 
 
 def get_suggestions(input_prompt):
-    response = openai.Completion.create(engine='davinci-codex', prompt=input_prompt, temperature=0.5, max_tokens=MAX_NUM_TOKENS, stop=STOP_STR, n=6)
+    response = openai.Completion.create(engine='davinci-codex', prompt=input_prompt, temperature=0.5, max_tokens=MAX_NUM_TOKENS, stop=STOP_STR, n=NUMBER_OF_SUGGESTIONS, frequency_penalty=FREQUENCY_PENALTY)
     suggestions = [e['text'] for e in response['choices']]
     return suggestions
 
@@ -66,7 +68,7 @@ def main(argv):
             f'{stderr}' \
             f'\n' \
             f'{SEPERATOR_STR}' \
-            f'Fix:\n' \
+            f'Fix for the abouve error:\n' \
             f''
 
             # f'Step by step instructions on how to fix the issue:\n' \
@@ -82,9 +84,8 @@ def main(argv):
         print(f'{block_char * 40}', end='')
 
         print(f'  {suggestion_num}. Suggestion:')
-        # Same text as above, but colored green
-        print(f'\033[92m{suggestion}\033[0m')
-        # print(suggestion)
+        print(f'\033[92m{suggestion.strip()}\033[0m')
+        print()
 
 
 if __name__ == "__main__":
