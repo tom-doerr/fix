@@ -106,7 +106,7 @@ def main(argv):
             f'{stderr}' \
             f'\n' \
             f'{SEPERATOR_STR}' \
-            f'Fix for the abouve error:\n' \
+            f'Fix for the above error:\n' \
             f''
 
             # f'Step by step instructions on how to fix the issue:\n' \
