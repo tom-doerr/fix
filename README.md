@@ -55,10 +55,14 @@ This is a program that suggests solutions for errors in the command line. It is 
 
 
 ## How to use it
-
 ```
 $ fix <program>
 ```
+To fix the last command:
+```
+$ fix !!
+```
+
 
 ## How it works
 
