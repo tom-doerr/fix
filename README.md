@@ -45,7 +45,7 @@
 
 ## What is it?
 
-This program fixes errors using OpenAI Codex.
+This is a program that suggests solutions for errors in the command line. It is using OpenAI's Codex AI to come up with suggestions.
 
 ## Installation
 
