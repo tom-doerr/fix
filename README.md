@@ -51,7 +51,7 @@ This is a program that suggests solutions for errors in the command line. It is 
 
 1. Get access to OpenAI's [Codex API](https://openai.com/blog/openai-codex/).
 2. Clone the repository
-3. Add `main.py` to your path, e.g. using `cp $PWD/main.py ~/.local/bin/fix`.
+3. Add `main.py` to your path, e.g. by running `cp $PWD/main.py ~/.local/bin/fix`.
 
 
 ## How to use it
