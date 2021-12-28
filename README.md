@@ -45,7 +45,7 @@
 
 ## What is it?
 
-This script fixes errors using OpenAI Codex.
+This program fixes errors using OpenAI Codex.
 
 ## Installation
 
