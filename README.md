@@ -1,7 +1,7 @@
 <h1 align="center">🤖 Fix! 🩹</h1>
 
 <p align="center">
-    AI fixing your errors.
+    AI fixing your issues.
 </p>
 
 <p align="center">
