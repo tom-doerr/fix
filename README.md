@@ -40,12 +40,10 @@
 </p>
 
 
-
-
-
 ## What is it?
 
 This is a program that suggests solutions for errors in the command line. It is using OpenAI's Codex AI to come up with suggestions.
+
 
 ## Installation
 
@@ -67,99 +65,3 @@ $ fix !!
 ## How it works
 
 This script executes your program and generates potential solutions using OpenAI's [Codex AI](https://openai.com/blog/openai-codex/).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

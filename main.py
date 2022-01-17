@@ -2,7 +2,7 @@
 
 """
 This script executes a program.
-If the program throws an error, the script generates suggestions 
+If the program throws an error, the script generates suggestions
 for fixing the error.
 """
 
