@@ -7,27 +7,27 @@
 <p align="center">
     <a href="https://github.com/tom-doerr/fix/stargazers"
         ><img
-            src="https://img.shields.io/github/stars/tom-doerr/fix?colorA=2c2837&style=for-the-badge&logo=starship style=flat-square"
+            src="https://img.shields.io/github/stars/tom-doerr/fix?colorA=2c2837&colorB=c9cbff&style=for-the-badge&logo=starship style=flat-square"
             alt="Repository's starts"
     /></a>
     <a href="https://github.com/tom-doerr/fix/issues"
         ><img
-            src="https://img.shields.io/github/issues-raw/tom-doerr/fix?colorA=2c2837&style=for-the-badge&logo=starship style=flat-square"
+            src="https://img.shields.io/github/issues-raw/tom-doerr/fix?colorA=2c2837&colorB=f2cdcd&style=for-the-badge&logo=starship style=flat-square"
             alt="Issues"
     /></a>
     <a href="https://github.com/tom-doerr/fix/blob/main/LICENSE"
         ><img
-            src="https://img.shields.io/github/license/tom-doerr/fix?colorA=2c2837&style=for-the-badge&logo=starship style=flat-square"
+            src="https://img.shields.io/github/license/tom-doerr/fix?colorA=2c2837&colorB=b5e8e0&style=for-the-badge&logo=starship style=flat-square"
             alt="License"
     /><br />
     <a href="https://github.com/tom-doerr/fix/commits/main"
 		><img
-			src="https://img.shields.io/github/last-commit/tom-doerr/fix/main?colorA=2c2837&style=for-the-badge&logo=starship style=flat-square"
+			src="https://img.shields.io/github/last-commit/tom-doerr/fix/main?colorA=2c2837&colorB=ddb6f2&style=for-the-badge&logo=starship style=flat-square"
 			alt="Latest commit"
     /></a>
     <a href="https://github.com/tom-doerr/fix"
         ><img
-            src="https://img.shields.io/github/repo-size/tom-doerr/fix?colorA=2c2837&style=for-the-badge&logo=starship style=flat-square"
+            src="https://img.shields.io/github/repo-size/tom-doerr/fix?colorA=2c2837&colorB=89DCEB&style=for-the-badge&logo=starship style=flat-square"
             alt="GitHub repository size"
     /></a>
 </p>
