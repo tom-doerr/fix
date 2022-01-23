@@ -81,7 +81,7 @@ def get_output(program):
 
 def get_suggestions(input_prompt):
     response = openai.Completion.create(
-        engine="davinci-codex",
+        engine="code-davinci-001",
         prompt=input_prompt,
         temperature=0.5,
         max_tokens=MAX_NUM_TOKENS,
