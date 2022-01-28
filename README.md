@@ -65,3 +65,8 @@ $ fix !!
 ## How it works
 
 This script executes your program and generates potential solutions using OpenAI's [Codex AI](https://openai.com/blog/openai-codex/).
+
+
+-------------------------------------------------------------------
+
+[Traffic Statistics](https://tom-doerr.github.io/github_repo_stats_data/tom-doerr/fix/latest-report/report.html)
