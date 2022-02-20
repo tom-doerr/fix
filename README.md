@@ -30,6 +30,10 @@
             src="https://img.shields.io/github/repo-size/tom-doerr/fix?colorA=2c2837&colorB=89DCEB&style=for-the-badge&logo=starship style=flat-square"
             alt="GitHub repository size"
     /></a>
+
+   <img src="https://badges.pufler.dev/visits/tom-doerr/fix?style=for-the-badge&color=96CDFB&logoColor=white&labelColor=302D41"/>
+
+
 </p>
 
 <p align="center">
