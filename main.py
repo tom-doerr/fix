@@ -21,6 +21,7 @@ import configparser
 MAX_NUM_TOKENS = 100
 FREQUENCY_PENALTY = 2
 NUMBER_OF_SUGGESTIONS = 9
+NUM_ERROR_CHARS = 4000
 SEPERATOR_STR = "==========================================================\n"
 STOP_STR = "==============="
 
@@ -113,7 +114,7 @@ def main(argv):
         f"{SEPERATOR_STR}"
         f"Error:\n"
         f"\n"
-        f"{stderr}"
+        f"{stderr[-NUM_ERROR_CHARS:]}"
         f"\n"
         f"{SEPERATOR_STR}"
         f"Fix for the above error:\n"
