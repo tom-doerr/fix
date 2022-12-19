@@ -51,7 +51,7 @@ A program that suggests solutions for errors in the command line using OpenAI's 
 
 ## Installation
 
-1. Get access to OpenAI's [Codex API](https://openai.com/blog/openai-codex/).
+1. Setup LLMHub **once**. (`pip install llmhub && llmhub auth`)
 2. Clone the repository
 3. Add `main.py` to your path, e.g. by running `cp $PWD/main.py ~/.local/bin/fix` or similar.
 
