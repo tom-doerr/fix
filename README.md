@@ -54,7 +54,11 @@ A program that suggests solutions for errors in the command line using OpenAI's 
 1. Get access to OpenAI's [Codex API](https://openai.com/blog/openai-codex/).
 2. Clone the repository
 3. Add `main.py` to your path, e.g. by running `cp $PWD/main.py ~/.local/bin/fix` or similar.
-
+4. Add an Alias for 'fix' that points to '~/.local/bin/fix/main.py' (or in the path where 'main.py' is located)
+```
+$ echo "alias fix='~/.local/bin/fix/main.py' >> ${ZSH_CUSTOM}/alias.zsh "
+```
+5. Don't forget to `chmod u+x fix/main.py`
 
 ## How to use it
 ```
